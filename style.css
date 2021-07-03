@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.calculator {
+	display: grid;
+}
+form {
+	width: 280px;
+	margin: auto;
+	margin-top: 50px;
+	background: #ddd;
+	padding: 20px 15px 15px;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px 2px rgba(0,0,0,0.6)
+}
+sup {
+	font-size: 8px;
+}
+form P {
+	padding: 0;
+	padding-bottom: 5px;
+	margin: 0;
+	text-align: right;
+	opacity: .8;
+}
+form input[type="text"] {
+	width: 100%;
+	font-size: 36px;
+	padding: 5px;
+	text-align: right;
+}
+
+hr {
+	margin: 15px;
+}	
+
+form input[type="button"] {
+	width: 58px;
+	height: 55px;
+	background: #aaa;
+	color: #fff;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
